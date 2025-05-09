@@ -6,11 +6,14 @@ public class App {
 
         ElencoInteri elencoInteri = new ElencoInteri(numeri);
         elencoInteri.addInt(7);
+        System.out.println(elencoInteri.getNextIndex());
         while (elencoInteri.hasAncoraElementi()) {
             System.out.println(elencoInteri.getElementoSuccessivo());
         }
         System.out.println("--------- costruttore vuoto!! ---------");
+        
         ElencoInteri elenco = new ElencoInteri();
+        System.out.println(elenco.getNextIndex());
         while (elenco.hasAncoraElementi()) {
             System.out.println(elenco.getElementoSuccessivo());
         }
