@@ -10,22 +10,6 @@ public class App {
             System.out.println(elencoInteri.getElementoSuccessivo());
         }
 
-        // System.out.println(elencoInteri.getElementoSuccessivo());
-        // System.out.println( elencoInteri.nextIndex);
-
-        // System.out.println(elencoInteri.getElementoSuccessivo());
-        // System.out.println( elencoInteri.nextIndex);
-
-        // System.out.println(elencoInteri.getElementoSuccessivo());
-        // System.out.println( elencoInteri.nextIndex);
-
-        // System.out.println(elencoInteri.getElementoSuccessivo());
-        // System.out.println(elencoInteri.nextIndex);
-
-        // System.out.println(elencoInteri.hasAncoraElementi());
-
-        // System.out.println(elencoInteri.getElementoSuccessivo());
-
-        // System.out.println(elencoInteri.hasAncoraElementi());
+       
     }
 }
