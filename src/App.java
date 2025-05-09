@@ -11,6 +11,9 @@ public class App {
         }
         System.out.println("--------- costruttore vuoto!! ---------");
         ElencoInteri elenco = new ElencoInteri();
+        while (elenco.hasAncoraElementi()) {
+            System.out.println(elenco.getElementoSuccessivo());
+        }
         elenco.addInt(1);
         while (elenco.hasAncoraElementi()) {
             System.out.println(elenco.getElementoSuccessivo());
