@@ -4,6 +4,9 @@ public class ElencoInteri {
 
     public int[] arrayIterno;
     public int nextIndex;
+    public ElencoInteri(){
+        this.arrayIterno=new int[0];
+    }
 
     public ElencoInteri(int[] array) {
         this.arrayIterno = array;
