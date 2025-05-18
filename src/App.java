@@ -10,6 +10,7 @@ public class App {
         while (elencoInteri.hasAncoraElementi()) {
             System.out.println(elencoInteri.getElementoSuccessivo());
         }
+
         System.out.println("--------- costruttore vuoto!! ---------");
         
         ElencoInteri elenco = new ElencoInteri();
